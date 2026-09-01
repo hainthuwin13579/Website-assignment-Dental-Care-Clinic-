@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Sign Up | Dental Care Clinic</title>
+
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+    <link rel="stylesheet"
+          href="CSS/signup.css">
+    <link rel="stylesheet" href="CSS/header-Footer.css">
+</head>
+
+
+<body>
+<header class="header">
+
+    <div class="container nav-container">
+
+        <a href="index.html" class="logo">
+            <i class="fa-solid fa-tooth"></i>
+            <span>
+                DENTAL CARE
+                <small>CLINIC</small>
+            </span>
+        </a>
+
+        <div class="mobile-menu" id="mobileMenu">
+
+            <nav class="navbar">
+
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="dentists.html">Dentists</a>
+                <a href="offers.html">Offers</a>
+                <a href="tips.html">Tips</a>
+                <a href="contact.html">Contact</a>
+
+            </nav>
+
+            <div class="navbar-2">
+
+                <a href="contact.html#forms" class="nav-btn">
+                    Book Appointment
+                </a>
+
+                <a href="login.html" class="login-link">
+                    Log In
+                </a>
+
+                <a href="signup.html" class="signup-link">
+                    Sign Up
+                </a>
+
+            </div>
+
+        </div>
+
+        <button class="menu-btn" id="menuBtn" type="button">
+
+            <i class="fa-solid fa-bars"></i>
+
+        </button>
+
+    </div>
+
+</header>
+
+
+<section class="signup-page">
+
+    <div class="signup-container">
+
+
+
+        <div class="signup-welcome">
+
+            <div class="welcome-content">
+
+                <a href="index.html" class="logo">
+
+                    <i class="fa-solid fa-tooth"></i>
+
+                    <span>
+                        DENTAL CARE
+                        <small>CLINIC</small>
+                    </span>
+
+                </a>
+
+
+                <span class="section-label">
+                    JOIN OUR CLINIC
+                </span>
+
+
+                <h1>
+                    Start Your
+                    <span>Smile Journey.</span>
+                </h1>
+
+
+                <p>
+                    Create your Dental Care Clinic account
+                    and make managing your dental appointments
+                    easier and more convenient.
+                </p>
+
+
+                <div class="welcome-features">
+
+                    <div class="feature-item">
+
+                        <i class="fa-solid fa-calendar-check"></i>
+
+                        <span>
+                            Book appointments easily
+                        </span>
+
+                    </div>
+
+
+                    <div class="feature-item">
+
+                        <i class="fa-solid fa-clock"></i>
+
+                        <span>
+                            Manage your visit schedule
+                        </span>
+
+                    </div>
+
+
+                    <div class="feature-item">
+
+                        <i class="fa-solid fa-shield-halved"></i>
+
+                        <span>
+                            Keep your account secure
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="signup-form-area">
+
+            <div class="signup-form-box">
+
+
+                <div class="form-heading">
+
+                    <div class="form-icon">
+
+                        <i class="fa-solid fa-user-plus"></i>
+
+                    </div>
+
+                    <h2>
+                        Create Account
+                    </h2>
+
+                    <p>
+                        Register for your clinic account
+                    </p>
+
+                </div>
+
+
+
+                <form id="signupForm">
+
+
+                    <div class="form-group">
+
+                        <label for="fullname">
+                            Full Name
+                        </label>
+
+                        <div class="input-box">
+
+                            <i class="fa-solid fa-user"></i>
+
+                            <input
+                                type="text"
+                                id="fullname"
+                                name="fullname"
+                                placeholder="Enter your full name"
+                                required>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email Address
+                        </label>
+
+                        <div class="input-box">
+
+                            <i class="fa-solid fa-envelope"></i>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Enter your email"
+                                required>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="form-group">
+
+                        <label for="phone">
+                            Phone Number
+                        </label>
+
+                        <div class="input-box">
+
+                            <i class="fa-solid fa-phone"></i>
+
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="Enter your phone number"
+                                required>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="form-group">
+
+                        <label for="password">
+                            Password
+                        </label>
+
+                        <div class="input-box">
+
+                            <i class="fa-solid fa-lock"></i>
+
+                            <input
+                                type="password"
+                                id="password"
+                                name="password"
+                                placeholder="Create a password"
+                                required>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="form-group">
+
+                        <label for="confirm-password">
+                            Confirm Password
+                        </label>
+
+                        <div class="input-box">
+
+                            <i class="fa-solid fa-lock"></i>
+
+                            <input
+                                type="password"
+                                id="confirm-password"
+                                name="confirm-password"
+                                placeholder="Confirm your password"
+                                required>
+
+                        </div>
+
+                    </div>
+
+
+                    <label class="terms">
+
+                        <input
+                            type="checkbox"
+                            name="terms"
+                            required>
+
+                        <span>
+                            I agree to the
+                            <a href="#">
+                                Terms & Conditions
+                            </a>
+                        </span>
+
+                    </label>
+
+
+
+                    <button
+                        type="submit"
+                        class="signup-btn">
+
+                        Create Account
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </button>
+
+
+                </form>
+
+
+
+                <div class="form-footer">
+
+                    <p>
+                        Already have an account?
+
+                        <a href="login.html">
+                            Login
+                        </a>
+                    </p>
+
+                </div>
+
+
+                <a href="index.html"
+                   class="back-home">
+
+                    <i class="fa-solid fa-arrow-left"></i>
+
+                    Back to Home
+
+                </a>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<footer class="footer">
+
+    <div class="container footer-grid">
+
+        <div class="footer-about">
+
+            <a href="index.html" class="logo footer-logo">
+                <i class="fa-solid fa-tooth"></i>
+                <span>DENTAL CARE <small>CLINIC</small></span>
+            </a>
+
+            <p>
+                Professional dental care for a healthier,
+                brighter and more confident smile.
+            </p>
+
+            <div class="footer-social">
+                <a href="http://facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <h3>Quick Links</h3>
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="dentists.html">Dentists</a>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h3>Useful Links</h3>
+
+            <a href="offers.html">Offers</a>
+            <a href="tips.html">Health Tips</a>
+            <a href="contact.html#forms">Appointment</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <h3>Opening Hours</h3>
+
+            <p>Monday – Friday</p>
+            <strong>9:00 AM – 6:00 PM</strong>
+
+            <p>Saturday</p>
+            <strong>9:00 AM – 2:00 PM</strong>
+
+            <p>Sunday</p>
+            <strong>Closed</strong>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        <p>
+            © 2026 Dental Care Clinic. All Rights Reserved.
+        </p>
+
+    </div>
+
+</footer>
+
+</body>
+<script>
+
+    const menuBtn = document.getElementById("menuBtn");
+    const mobileMenu = document.getElementById("mobileMenu");
+    const menuIcon = menuBtn.querySelector("i");
+
+    menuBtn.addEventListener("click", () => {
+
+        mobileMenu.classList.toggle("active");
+
+        if (mobileMenu.classList.contains("active")) {
+
+            menuIcon.classList.remove("fa-bars");
+            menuIcon.classList.add("fa-xmark");
+
+        } else {
+
+            menuIcon.classList.remove("fa-xmark");
+            menuIcon.classList.add("fa-bars");
+
+        }
+
+    });
+
+    const signupForm = document.getElementById("signupForm");
+
+    signupForm.addEventListener("submit", function(event) {
+
+        event.preventDefault();
+
+        const fullname = document.getElementById("fullname").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const phone = document.getElementById("phone").value.trim();
+        const password = document.getElementById("password").value;
+        const confirmPassword = document.getElementById("confirm-password").value;
+        const terms = document.querySelector('input[name="terms"]').checked;
+
+        if (
+            fullname === "" ||
+            email === "" ||
+            phone === "" ||
+            password === "" ||
+            confirmPassword === ""
+        ) {
+
+            alert("Please complete all required fields.");
+
+            return;
+        }
+
+        if (password.length < 6) {
+
+            alert("Password must be at least 6 characters long.");
+
+            return;
+        }
+
+
+        if (password !== confirmPassword) {
+
+            alert("Passwords do not match.");
+
+            return;
+        }
+
+        if (!terms) {
+
+            alert("Please agree to the Terms & Conditions.");
+
+            return;
+        }
+
+        alert("Account created successfully!");
+
+        window.location.href = "login.html";
+
+    });
+
+</script>
+</html>
