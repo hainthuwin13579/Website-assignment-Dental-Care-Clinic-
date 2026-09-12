@@ -7,6 +7,27 @@
 html {
     scroll-behavior: smooth;
 }
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.section-padding {
+    padding: 90px 0;
+}
+
+@media (max-width: 768px) {
+    .section-padding {
+        padding: 65px 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .section-padding {
+        padding: 60px 0;
+    }
+}
 
 body {
     font-family: "Poppins", sans-serif;
