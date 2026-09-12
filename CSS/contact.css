@@ -154,6 +154,10 @@ html {
     width: 100%;
 }
 
+.Video {
+    margin-bottom: 30px;
+}
+
 .google-map {
     width: 100%;
     overflow: hidden;
@@ -168,7 +172,6 @@ html {
     min-height: 400px;
     border: 0;
 }
-
 .appointment-form-container {
     background: white;
     padding: 35px;
