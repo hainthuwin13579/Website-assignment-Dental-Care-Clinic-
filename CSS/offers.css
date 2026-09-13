@@ -376,6 +376,24 @@ html {
     font-size: 65px;
 }
 
+.cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #159a9c;
+    color: #ffffff;
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.cta-btn:hover {
+    background: #117a7c;
+    transform: translateY(-2px);
+}
+
 @media (max-width: 992px) {
     .offer-grid {
         grid-template-columns: repeat(2, 1fr);
