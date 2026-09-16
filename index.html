@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title>
+    <title>dentalcareclinic.com</title>
+    <meta name="description" content="Dental Care Clinic provides professional dental services, oral health information and appointment enquiries.">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -529,9 +530,9 @@
                     made me feel comfortable."
                 </p>
 
-                <h4>
+                <h3>
                     — May Thu
-                </h4>
+                </h3>
 
             </div>
 
@@ -548,9 +549,9 @@
                     treatment well. The overall experience was good."
                 </p>
 
-                <h4>
+                <h3>
                     — Aung Min
-                </h4>
+                </h3>
 
             </div>
 
@@ -567,9 +568,9 @@
                     friendly. I would recommend this clinic to others."
                 </p>
 
-                <h4>
+                <h3>
                     — John Smith
-                </h4>
+                </h3>
 
             </div>
 
@@ -871,24 +872,25 @@
     </div>
 
 </footer>
-</body>
 <script>
-    const menuBtn = document.getElementById("menuBtn");
-    const mobileMenu = document.getElementById("mobileMenu");
-    const menuIcon = menuBtn.querySelector("i");
+        const menuBtn = document.getElementById("menuBtn");
+        const mobileMenu = document.getElementById("mobileMenu");
+        const menuIcon = menuBtn.querySelector("i");
 
-    menuBtn.addEventListener("click", () => {
+        menuBtn.addEventListener("click", () => {
 
-        mobileMenu.classList.toggle("active");
+            mobileMenu.classList.toggle("active");
 
-        if (mobileMenu.classList.contains("active")) {
-            menuIcon.classList.remove("fa-bars");
-            menuIcon.classList.add("fa-xmark");
-        } else {
-            menuIcon.classList.remove("fa-xmark");
-            menuIcon.classList.add("fa-bars");
-        }
+            if (mobileMenu.classList.contains("active")) {
+                menuIcon.classList.remove("fa-bars");
+                menuIcon.classList.add("fa-xmark");
+            } else {
+                menuIcon.classList.remove("fa-xmark");
+                menuIcon.classList.add("fa-bars");
+            }
 
-    });
-</script>
+        });
+    </script>
+</body>
+    
 </html>
